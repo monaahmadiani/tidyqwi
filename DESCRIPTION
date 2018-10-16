@@ -1,0 +1,34 @@
+Package: tidyqwi
+Title: A Convient API for Accessing UCB's Quarterly Workforce Indicator
+Version: 0.0.0.9000
+Authors@R: c(
+    person(given = "Michael",
+           family = "DeWitt",
+           role = c("aut", "cre"),
+           email = "dewittme@wfu.edu",
+           comment = c(ORCID = "0000-0001-8940-1967")),
+    person(given = "Mona",
+           family = "Ahmadiani",
+           role = c("aut"),
+           email = "ahmadim@wfu.edu",
+           comment = c(ORCID = "0000-0002-1269-5685"))
+           )
+Maintainer: Michael DeWitt <dewittme@wfu.edu>
+Description: The purpose of this package is to access the 
+    United States Census Bureau's Quarterly Workforce Indicator data. Additionally, 
+    The data will be retrieved in a tidy format for further manipulation.
+Depends:
+  R (>= 3.0)
+Imports:
+  dplyr,
+  httr,
+  jsonlite,
+  Hmisc
+License: MIT + file LICENSE
+BugReports: https://github.com/medewitt/tidyqwi/issues
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Suggests: 
+    testthat,
+    covr
